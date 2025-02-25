@@ -1,0 +1,9 @@
+.button{
+    background-color: gold;
+    border:none;
+    padding: 1%;
+    max-width: 10%;
+    border-radius: 10%;
+    color: red;
+    margin: 1% 1% 1% 5%;
+}

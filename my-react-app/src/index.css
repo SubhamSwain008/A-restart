@@ -1,0 +1,33 @@
+.card{
+  border: 3px solid;
+  box-shadow: 5px 5px 5px rgb(15, 15, 15);
+  text-align: center;
+  max-width: 50%;
+  display: inline-block;
+  border-radius: 20%;
+  background-color: bisque;
+}
+.card:hover{
+  background-color: rgb(231, 206, 172);
+  color:rgb(39, 114, 73);
+  box-shadow:5px 5px 5px rgb(39, 114, 73);
+
+}
+.card .imga{
+  max-width: 50%;
+  box-shadow:5px 5px 5px rgb(39, 114, 73);
+  transition: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  border-radius: 20%;
+}
+
+.card .imga:hover{
+  max-width: 70%;
+  box-shadow:20px 20px 20px rgb(39, 114, 73);
+}
+
+.img1:hover{
+  max-width: 200%;
+  border-radius: 50%;
+}
