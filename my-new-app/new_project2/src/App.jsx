@@ -3,6 +3,7 @@ import Mycomponent from './MyComponents'
 import Car from './array_objects.jsx'
 import Todolist from './Todolist.jsx'
 import Useeffect from './useEffect.jsx'
+import UsecontextA from './useContextA.jsx'
 function App() {
   
 
@@ -11,7 +12,8 @@ function App() {
    {/* <Mycomponent/> */}
    {/* <Car /> */}
    {/* <Todolist/> */}
-   <Useeffect/>
+   {/* <Useeffect/> */}
+   <UsecontextA name="Subham"/>
     </>
   )
 }
